@@ -1,0 +1,244 @@
+@import url('reset.css');
+@import url('font.css');
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Press Start 2P';
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F4F5;
+    gap: 12px;
+    padding-bottom: 24px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    width: 1488px;
+    height: 70px;
+}
+main{
+    width: 1440px;
+}
+.nav-link{
+    color: #000;
+    font-size: 18px;
+}
+.nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0077ff;
+    width: fit-content;
+    height: 50px;
+    padding: 0 32px;
+    border-radius: 14px;
+    color: #fff;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: column;
+    width: 100%;
+    height: 340px;
+    border-radius: 14px;
+    padding: 28px 24px;
+    background-image: url('../assets/images/banner.svg');
+    background-position: center;
+    h2{
+        text-align: center;
+        font-size: 50px;
+    }
+}
+.banner-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width: fit-content;
+    height: 50px;
+    padding: 0 32px;
+    border-radius: 14px;
+    color: #fff;
+}
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    border-radius: 14px;
+    padding-top: 24px;
+}
+.filters{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 464px;
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 24px 24px;
+    gap: 24px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    height: fit-content;
+    width: 100%;
+    background-color: #F4F4F5;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E4E4E7;
+    padding: 12px 12px;
+    gap: 10px;
+}
+.filter-section{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 100%;
+    font-size: 10px;
+    gap: 10px;
+}
+.select{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 10px;
+}
+.job-type{
+    width: fit-content;
+    background-color: #F4F4F5;
+    border-radius: 7px;
+    padding: 6px 10px;
+    font-size: 10px;
+    color: #A1A1AA;
+}
+.cities{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F5;
+    padding: 12px 10px;
+    gap: 6px;
+    border-radius: 12px;
+}
+.city{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+    font-size: 10px;
+    div{
+        width: 22px;
+        height: 22px;
+        background-color: #E4E4E7;
+        border-radius: 4px;
+    }
+}
+.sallary{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 12px;
+}
+.vacancies{
+    display: flex;
+    flex-wrap: wrap;
+    width: 952px;
+    border-radius: 14px;
+    gap: 12px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #fff;
+    width: 464px;
+    height: 319px;
+    border-radius: 14px;
+    padding: 24px 24px;
+}
+.location-container{
+    display: flex;
+    justify-content: left;
+    align-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    gap: 10px;   
+}
+.company-info{
+    font-size: 10px;
+}
+.job-info-container{
+    font-size: 30px;
+}
+.location-info{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    align-items: center;
+    font-size: 10px;
+    color: #818181;
+    gap: 10px;
+}
+.job-details-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.job-details{
+    color: #fff;
+    background-color: #0077ff;
+    font-size: 12px;
+    border-radius: 8px;
+    padding: 6px 10px;
+}
+footer{
+    padding: 36px 36px;
+    width: 1488px;
+    height: 400px;
+    border-radius: 14px;
+    background-image: url(../assets/images/Footer.svg);
+    background-size: cover;
+    background-position: center;
+}
+.footer-info{
+    display: flex;
+    flex-direction: row;
+}
+.footer-first{
+    width: 100%;
+}
+.footer-second{
+    width: 100%;
+}
+.footer-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0077ff;
+    width: fit-content;
+    height: 44px;
+    padding: 0 27px;
+    border-radius: 14px;
+    color: #fff;
+    font-size: 14px;
+}
+.footer-second-text{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 12px;
+    a{
+        color:#000;
+    }
+}
